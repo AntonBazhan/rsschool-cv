@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding:0;
+  margin: 0;
+}
+
+.container{
+  max-width: 1000px;
+  margin: auto;
+  background-color: lightgoldenrodyellow;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.box-information{
+  text-align: center;
+  margin: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.info{
+  display: flex;
+  justify-content: space-around;
+}
+
+.image{
+  width: 200px;
+  border-radius: 50%;
+  
+}
+
+.text{
+  margin: 0 20px;
+  line-height: 40px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.section-item{
+  margin-left: 50px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 15px;
+}
+
+.technology{
+  margin: 0 30px;
+}
